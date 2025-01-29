@@ -12,6 +12,7 @@
 # Use Java 17 as the base image
 FROM openjdk:17-jdk-alpine
 
+
 # Set working directory
 WORKDIR /app
 
