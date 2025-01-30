@@ -31,7 +31,7 @@ steps:
     publishLocation: 'Container'
 - task: Docker@2
   inputs:
-    containerRegistry: azure-registry #dockerhub
+    containerRegistry: acr-registry #dockerhub
     repository: $(repositoryName)
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
